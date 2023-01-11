@@ -1,0 +1,29 @@
+h5::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.text-cement {
+    color: #808080;
+}
+
+.content {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #222;
+}
+
+.progress-bar-fill {
+    background-color: #4ceb95;
+    height: 100%;
+    /* This is important */
+}

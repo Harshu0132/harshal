@@ -1,0 +1,30 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    background-color: black;
+    color: white;
+}
+
+.text-green {
+    color: #4ceb95;
+}
+
+.btn-green {
+    background: #18d26e;
+    color: white;
+}
+
+h5::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.text-cement {
+    color: #808080;
+}

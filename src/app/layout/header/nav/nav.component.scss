@@ -1,0 +1,57 @@
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-black {
+    background: black;
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #18d26e;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.nav_change{
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    top: 0;
+    left: 0;
+}

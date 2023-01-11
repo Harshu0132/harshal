@@ -1,0 +1,59 @@
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+  
+    // align-items: center;
+    padding-bottom: 5%;
+}
+
+.content{
+    background-color: black;
+    color: white;
+}
+
+
+.brush, .chart, .code{
+    font-size: 50px;
+}
+
+i{
+    color: #18d26e;
+}
+
+.services .card{
+    background-color: #222;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .card:hover{
+    background-color: #18d26e;
+    
+}n
+
+.services .card .box{
+    transition: all 0.3s ease;
+}
+
+.services .card:hover .box{
+    transform: scale(1.05);
+}
+.services .card:hover .box i{
+    color: white;
+}
+
+h5::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.text-cement{
+    color: #808080;
+}

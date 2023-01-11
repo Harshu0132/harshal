@@ -1,0 +1,102 @@
+.content {
+    background-color: black;
+    color: white;
+}
+
+.light-black {
+    background-color: #151515;
+    
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-green {
+    color: #18d26e;
+}
+
+.btn-green {
+    background: #18d26e;
+    color: white;
+}
+
+.location {
+    font-size: 20px;
+    border-radius: 50%;
+    padding-top: 33%;
+    padding-bottom: 34%;
+    padding-left: 40%;
+    padding-right: 40%;
+    margin-right: 20px;
+}
+
+.envelope {
+    font-size: 20px;
+    border-radius: 50%;
+    padding-top: 33%;
+    padding-bottom: 33%;
+    padding-left: 33%;
+    padding-right: 33%;
+    margin-right: 15px;
+
+}
+
+.mobile {
+    font-size: 20px;
+    border-radius: 50%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 45%;
+    padding-right: 45%;
+    margin-right: 20px;
+}
+
+.text-cement {
+    color: #808080;
+}
+
+i {
+    color: #18d26e;
+    background-color: #222;
+    transition: all 0.3s ease;
+}
+
+i:hover {
+    background-color: #18d26e;
+    color: white;
+    cursor: pointer;
+}
+
+input,
+textarea {
+    background-color: #222;
+    border: solid 2px #2e3133;
+}
+
+.text-green {
+    color: #18d26e;
+}
+
+.btn-green {
+    background: #18d26e;
+    color: white;
+}
+
+h5::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.text-cement {
+    color: #808080;
+}
+
+.form-control{
+    background-color: #222;
+    color: white;
+}
