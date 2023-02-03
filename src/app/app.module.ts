@@ -14,7 +14,11 @@ import { ContactComponent } from './layout/section/contact/contact.component';
 import { AboutComponent } from './layout/section/about/about.component';
 import { ServicesComponent } from './layout/section/services/services.component';
 import {ProgressBarModule} from "angular-progress-bar";
-import { EducationComponent } from './layout/section/education/education.component'
+import { EducationComponent } from './layout/section/education/education.component';
+import { ProjectsComponent } from './layout/section/projects/projects.component';
+import { NextDirective } from './layout/section/projects/directives/next.directive';
+import { PrevDirective } from './layout/section/projects/directives/prev.directive';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +33,10 @@ import { EducationComponent } from './layout/section/education/education.compone
     AboutComponent,
     ServicesComponent,
     EducationComponent,
+    ProjectsComponent,
+    NextDirective,
+    PrevDirective,
+ 
   ],
   imports: [
     BrowserModule,

@@ -40,6 +40,9 @@ export class NavComponent implements OnInit {
   toServices(){
     document.getElementById("Services")?.scrollIntoView({behavior:"smooth"})
   }
+  toProject(){
+    document.getElementById("Projects")?.scrollIntoView({behavior:"smooth"})
+  }
   toEducation(){
     document.getElementById("Education")?.scrollIntoView({behavior:"smooth"})
   }

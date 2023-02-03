@@ -8,9 +8,14 @@ import AOS from "aos"
   styleUrls: ['./section.component.scss']
 })
 export class SectionComponent implements OnInit {
+  
+  nextIcon = document.getElementsByClassName("carousel-control-next-icon")[0]
+  constructor() {
 
-  constructor() { }
-
+    console.log("nextIcon",this.nextIcon);
+    
+   }
+  
   ngOnInit(): void {
     AOS.init();
 
